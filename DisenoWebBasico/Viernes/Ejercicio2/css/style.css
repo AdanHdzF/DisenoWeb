@@ -1,0 +1,50 @@
+header{
+	background-color: #5D5DFF;
+	color: #FFC000;
+	padding: 15px;
+	text-align: center;
+	margin: 0px;
+}
+
+.menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu li{
+	padding: 8px;
+	margin-bottom: 7px;
+	background: yellow;
+	color: red;
+	text-align: center;
+}
+
+.info{
+	text-align: justify;
+}
+
+/*Para celulares*/
+@media only screen and (max-width: 760px) {
+	.col-3{
+		width: 100%;
+		padding: 15px;
+	}
+	.col-6{
+		width: 100%;
+		padding: 15px;
+	}
+}
+
+/*Para Escritorio*/
+@media only screen and (min-width: 760px) {
+	.col-3{
+		width: 24%;
+		padding: 5px;
+		float: left;
+	}
+	.col-6{
+		width: 74%;
+		float: right;
+	}
+}

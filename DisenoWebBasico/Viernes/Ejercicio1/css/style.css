@@ -1,0 +1,40 @@
+p{
+	width: 80%;  /*La altura se recomienda que se adapte a su contenido*/
+}
+
+@media screen and (max-width: 1800px) and (min-width: 992px){
+	body{
+		background-color: #3EDEF6;
+	}
+	h1{
+		font-size: 50px;
+		color: #FFA70D;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px){
+	body{
+		background-color: #DF25D4;
+	}
+	div{
+		float: left;
+	}
+	h1{
+		font-size: 30px;
+		color: #39EF57;
+	}
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+	body{
+		background-color: #00897b;
+		color: #fff;
+	}
+}
+
+@media screen and (max-width: 400px) and (min-width: 0px) {
+	body{
+		background-color: #004d40;
+		color: #fff;
+	}
+}

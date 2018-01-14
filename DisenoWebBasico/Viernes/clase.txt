@@ -1,0 +1,4 @@
+Nos movemos al directorio que subiremos
+
+1. git init
+2. git remote ...

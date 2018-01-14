@@ -1,0 +1,37 @@
+div{
+	/*display: inline-block;*/
+	width: 150px;
+	background: white;
+	/*float: right;*/
+
+/*	static: 	posicionamniento por defecto
+	absolute: 	A partir de su contenedor padre se va a posicionar
+	relative: 	A partir de donde la insertamos, vamos a maniplular su posición	
+	fixed: 		Poner un elemento en una posición de donde no se moverá, ni siquiera cuando bajemos con un scroll
+*/
+	position: 
+}
+
+/*	solid
+	dashed
+	dotted*/
+.border{
+	background: #2C2EC1;
+	border: 10px dotted #000000;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+}
+
+
+.padding{
+	padding: 10px 30px;
+	background-color: #0F7C3F;
+	
+}
+
+
+.margin{
+	background-color: #DA1D1D;
+	padding: 10px 30px 50px 70px;
+}

@@ -1,0 +1,65 @@
+/*Selector de hijos. Aplica Estilos a los 
+hijos directos*/
+p>span{
+	color: #3BB3AD;
+	font-size: 16px;
+}
+
+div>h2{
+	text-align: right;
+}
+
+p>p{
+	color: red;
+	text-align: center;
+}
+
+/*Selector de adyacencia. Aplica estilo al que este abajo o al lado de el*/
+h4{
+	color: blue;
+}
+
+h3+h4{
+	margin-left: 50px;
+}
+
+p+p{
+	margin-left: 100px;
+}
+
+
+/*Selector de atributos. Aplica estilo a elementos de html5*/
+.nada{
+
+}
+
+.otraClase{
+
+}
+
+a[href]{
+	color: green;
+}
+
+a[class="nada"]{
+	color: orange;
+}
+
+/*"~" se usa para indicar un "almenos una vez"*/
+a[class~="otraClase"]{
+	margin-left: 200px;
+}
+
+*[lang=en]{
+	margin: 100px;
+	color: purple;
+	text-align: center;	
+}
+
+/*"|" todas las variantes de "es"*/
+*[lang|=es]{
+	margin: 100px;
+	color: gray;
+	text-align: right;
+}
+

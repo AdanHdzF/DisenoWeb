@@ -1,0 +1,29 @@
+.cuadro{
+	height: 100px;
+	width: 100px;
+	background: #DF7777;
+}
+
+.adentro{
+	color: #AAE572;
+	background: #72DBDE;
+}
+
+
+
+/*	SELECTORES
+	hijos: se utiliza para seleccionar un lemente que el cual es hijo directo de otro elemento, vamos aedentilficar a este tipo de selector mediante el signo ">"
+			P > span {color:white;}
+	adyacente: nos permite aplicar estilos a elementos de HTML que se encuentren jlusot a continuacion de otraos elementos para este selector se utilizará el signo "+"
+
+	de atributos: Nos permite seleccionar elementos de codigo HTML y aplicar...
+			[Atributo1]
+			[Atributo2 = valor1]
+			[Atributo3 = valor2]
+			[Atributo4 = valor3]: Solo util para atributos de tipo lang;
+
+	
+	Ejercicios:
+
+
+*/
