@@ -1,0 +1,2 @@
+1.	Darle formato al formulario
+2.	Nombre con figuras

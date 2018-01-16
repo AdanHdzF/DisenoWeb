@@ -1,0 +1,20 @@
+table, th, td{
+	border: 4px solid #5B2C6F;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+img{
+	width: 100px;
+	height: 80px;
+}
+
+/*elemento1 elemento2:ntg-child(#)
+Todos los elemento2 que estén dentro de una clase elemento1 y que sean el # (ene hijo)*/
+.miTabla tr:nth-child(1){
+	background: #A569BD;
+}
+
+.miTabla tr:nth-child(2){
+	background: #D7BDE2;
+}

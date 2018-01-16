@@ -1,0 +1,69 @@
+.cuadrado{
+	background-color: rgba(130, 224, 170, 0.5);
+	width: 200px;
+	height: 200px;
+	border: 3px solid black;
+	transform: translate(100px, 100px);
+}
+
+.rectangulo{
+	background-color: rgba(220, 118, 51, 0.5);
+	width: 200px;
+	height: 100px;
+	border: 3px solid black;
+}
+
+.rombo{
+	background-color: rgba(205, 97, 85, 0.5);
+	width: 200px;
+	height: 200px;
+	border: 3px solid black;
+	transform: rotate(45deg);
+}
+
+.triangulo{
+	width: 0px;
+	height: 0px;
+	margin-left: 20px;
+	border-right: 100px solid transparent;
+	border-top: 100px solid transparent;
+	border-left: 100px solid transparent;
+	border-bottom: 100px solid gray;
+	transform: translateY(100px);
+}
+
+.paralelogramo{
+	width: 100px;
+	height: 50px;
+	margin-left: 30px;
+	border: 3px solid black;
+	background-color: orange;
+	transform: skew(-20deg);
+}
+
+.circulo{
+	width: 150px;
+	height: 150px;
+	border: 3px solid black;
+	border-radius: 50%;
+	background-color: green;
+}
+
+.semicirculo{
+	width: 200px;
+	height: 100px;
+	border: 3px solid black;
+	background-color: blue;
+	/*border-radius: 200px 0 200px 0;*/
+	border-radius: 200px 0 200px 0;
+}
+
+.pacman{
+	width: 0px;
+	height: 0px;
+	border-right: 50px solid transparent;
+	border-top: 50px solid yellow;
+	border-left: 50px solid yellow;
+	border-bottom: 50px solid yellow;
+	border-radius: 100%;
+}

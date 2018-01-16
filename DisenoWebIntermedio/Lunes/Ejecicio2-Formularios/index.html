@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<form>
+		<h3>Ingresa tus datos</h3>
+		<!--input: elementos del formuilarios
+			text: ingresa texto sin formato específico-->
+		<span>Nombre: </span><input type="text"><br>
+		<span>Apellido: </span><input type="text"><br>
+		<span>Contraseña: </span><input type="password"><br>
+		<span>Géreno: </span>
+			<div>
+				<input type="radio" value="Femenino" name="genero">
+					<span>Femenino</span><br>
+				<input type="radio" value="Masculino" name="genero">
+					<span>Masculino</span><br>
+			</div>
+		<span>Foto de perfil: </span>
+		<input type="file" name="foto" accept=".jpg"><br>
+
+		<span>Acepto los términos y condiciones</span>
+		<input type="checkbox" name="terminos"><br><br>
+		
+		<input type="reset" name="limpiar" value="Borrar datos">
+
+		<input type="submit" name="enviar"><br>
+
+	</form>
+</body>
+</html>
