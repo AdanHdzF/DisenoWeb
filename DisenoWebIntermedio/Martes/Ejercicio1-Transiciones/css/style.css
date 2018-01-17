@@ -1,0 +1,130 @@
+/*Transiciones*/
+
+/*Sintaxis:
+	transition: <propiedad> <duración> <velocidad(función tiempo)> <retraso>
+		<propiedad>: La propiedad que se va a modificar
+		<duración>: Cuanto tiempo se va a tardar en transicionar
+		<velocidad>: linear, ease, ease in...
+		<retraso>: Cuanto tiempo se va a tardar en inciar
+*/
+/*	Velocidades:	- ease-in
+					- ease-out
+					- ease-in-out
+					- linear
+*/
+
+a{
+	text-decoration: none;
+	color: green;
+	font-size: 12px;
+}
+
+a:hover{
+	color: red;
+	font-size: 18px;
+}
+
+a{	
+	transition: color 0.8s ease-in 0.2s;
+	transition: font-size 0.8s ease-in 0.2s;
+}
+/*Esos 4 parámetros se pueden separar
+a{	
+	transition-property: color;
+	transition-duracion: 0.8s;
+	transition-timing-funcition: linear;
+	transation-delay: 0.2s;
+}
+*/
+
+/*Compatibilidad con navegadores
+	Google Chrome, Safari:
+		-webkit-transition: color 0.8s ease-in 0.2s;
+
+	FireFox:
+		-moz-transition: color 0.8s ease-in 0.2s;
+
+	Opera:
+		-o-transition: color 0.8s ease-in 0.2s;
+
+	Standard:
+		-transition: color 0.8s ease-in 0.2s;
+*/
+
+div{
+	width: 100px;
+	height: 50px;
+	background-color: #2E2EFE;
+	font-weight: bold;
+	color: white;
+	transition: width 1s, background 1s, color 1s;
+	padding: 10px;
+	margin: 10px;
+}
+
+#div1{
+	transition-timing-function: linear;
+}
+
+#div2{
+	transition-timing-function: ease;
+}
+
+#div3{
+	transition-timing-function: ease-in;
+}
+
+#div4{
+	transition-timing-function: ease-out;
+}
+
+#div5{
+	transition-timing-function: ease-in-out;
+}
+
+div:hover{
+	width: 200px;
+	background-color: #74DF00;
+	color: black;
+}
+
+.transicion{
+	width: 100px;
+	height: 50px;
+	background-color: #FE2E2E;
+	transition: width 2s, height 2s, margin 2s, font-size 2s;
+	margin: 50px auto 0px;
+}
+
+.transicion:hover{
+	width: 80%;
+	height: 100px;
+	margin: 0px auto;
+	font-size: 50px;
+}
+
+.container{
+	width: 500px;
+	height: 100px;
+	background-color: #8A0868;
+	position: relative;
+}
+
+.fade-in{
+	opacity: 0;
+	transition: opacity 0.9s ease-in-out;
+	position: absolute;
+	height: 30px;
+	width: 70px;
+	background:  #BDBDBD;
+	margin: 5%;
+	padding: 15px;
+}
+
+.container:hover .fade-in{
+	/*opacity: 1;*/
+}
+
+.fade-in:hover{
+	opacity: 1;
+}
