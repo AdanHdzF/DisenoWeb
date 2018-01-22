@@ -1,0 +1,22 @@
+body{
+	font-family: 'Berkshire Swash', cursive;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+	flex: 1 0 auto;
+}
+
+video{
+	margin-top: 50px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+ul li{
+	display: inline-block;
+}
