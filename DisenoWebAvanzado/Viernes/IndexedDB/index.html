@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <title>IndexedDB: Local Database with HTML5</title>
+  <script type="text/javascript"  src="js/bases.js"></script>
+</head>
+<body onload="startDB();">
+  
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">IndexedDB</a>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+
+    <form class="card">
+      <div class="container">
+    <input type="text" id="numCta" placeholder="Número de cuenta" />
+    <input type="text" id="name" placeholder="Nombre" />
+    <input type="text" id="surname" placeholder="Apellidos" />
+    <button class="btn" type="button" onclick="add();">Guardar</button>
+    <br><br>
+    </div>
+    </form>
+    <div id="elements">
+      <table>
+        <caption>Personas</caption>
+        <thead>
+          <tr>
+            <th>Número de cuenta</th>
+            <th>Nombre</th>
+            <th> </th>
+          </tr>
+        </thead>
+        <tbody id="elementsList">
+          <tr>
+            <td colspan="3">No hay elementos para mostrar</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <button class="btn" type="button" onclick="loadAllByName();">Ordenar por nombre</button>
+  </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+
+</html>

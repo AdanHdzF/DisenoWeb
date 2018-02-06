@@ -1,0 +1,141 @@
+body{
+	background: #c5cae9;
+	font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Risque', cursive;
+    font-family: 'Macondo', cursive;
+}
+
+canvas{
+	background: white;
+	display: block;
+	margin: 20px auto 10px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px 4px #222222;
+	cursor: url(../img/pluma.png), crosshair;
+}
+
+button{
+	background: #78909c;
+	box-shadow: 0 3px 0 0 #6a845f;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	text-shadow: 0 1px black;
+	display: block;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	float: left;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+ul li{
+	display: inline;
+	margin: 0 5px 10px;	
+}
+
+.controles{
+	min-height: 60px;
+	margin: 0 auto;
+	width: 600px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.rojo{
+	background: red;
+}
+
+.verde{
+	background: green;
+}
+
+.azul{
+	background: blue;
+}
+
+.seleccionado{
+	border: 7px solid white;
+	width: 40px;
+	height: 40px;
+}
+
+.sliders p{
+	margin: 8px 0;
+	vertical-align: middle;
+}
+
+
+.sliders label{
+	display: inline-block;
+	margin: 0 10px 0 0;
+	width: 35px;
+	font-size: 14px;
+	color: #6d4c41;
+}
+
+.sliders input{
+	position: relative;
+	top: 2px;
+}
+
+#colorSeleccionado{
+	background: white;
+	border-radius: 5px;
+	clear: both;
+	margin: 20px auto 0;
+	padding: 10px;
+	position: relative;
+}
+
+#colorSeleccionado:after{
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: white;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+#colorSeleccionado button{
+	border: none;
+	border-top: 1px solid #37474f;
+	border-radius: 0 0 5px 5px;
+	clear: both;
+	margin: 10px -10px -7px;
+	padding: 5px 10px;
+	width: 325px;
+}
+
+#nuevoColor{
+	width: 80px;
+	height: 80px;
+	border-radius: 3px;
+	box-shadow: none;
+	float: left;
+	border: none;
+	margin: 10px 20px 20px 10px;
+}
+
+ul li, #nuevoColor{
+	display: block;
+	height: 54px;
+	width: 54px;
+	border-radius: 60px;
+	cursor: pointer;
+	border: 0;
+	box-shadow: 0 3px 0 0;
+}
+

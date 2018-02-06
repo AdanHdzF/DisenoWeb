@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Paint</title>
+	<link href="https://fonts.googleapis.com/css?family=Macondo|Risque|Sedgwick+Ave" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<h1 style="text-align: center;">Paint</h1>
+
+	<canvas width="600" height="400"></canvas>
+	
+	<div class="controles">
+		<ul>
+			<li class="rojo seleccionado"></li>
+			<li class="verde"></li>
+			<li class="azul"></li>
+		</ul>
+
+		<button id="revelarColor">Nuevo color</button>
+		
+		<div id="colorSeleccionado">
+			<span id="nuevoColor"></span>
+			<div class="sliders">
+				<p>
+					<label for="rojo">Rojo</label>
+					<input id="rojo" type="range" min="0" max="255" value="0">
+				</p>
+
+				<p>
+					<label for="verde">Verde</label>
+					<input id="verde" type="range" min="0" max="255" value="0">
+				</p>
+
+				<p>
+					<label for="azul">Azul</label>
+					<input id="azul" type="range" min="0" max="255" value="0">
+				</p>
+			</div>
+			
+			<div>
+				<button id="">Agregar color</button>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+	
+</body>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/app.js"></script>
+
+</html>

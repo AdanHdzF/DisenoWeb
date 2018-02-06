@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		
+	  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <title>Inicio</title>
+
+    </head>
+
+    <body>
+    	
+    	<div class="navbar-fixed">
+    		<nav>
+    		  <div class="nav-wrapper blue darken-4">
+    		    <a href="#!" class="brand-logo center">The St. Regis Bora Bora Resort</a>
+    		    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    		    <ul class="right hide-on-med-and-down">
+    		      <li class="active"><a href="index.html">Inicio</a></li>
+                  <li><a href="reservaciones.html">Reservaciones</a></li>
+    		      <li><a href="restaurante.html">Restaurante</a></li>
+    		      <li><a href="galeria.html">Galeria</a></li>
+    		      <li><a href="contacto.html">Contacto</a></li>
+    		    </ul>
+    		    <ul class="side-nav" id="mobile-demo">
+    		      <li><a href="index.html">Inicio</a></li>
+                  <li><a href="reservaciones.html">Reservaciones</a></li>
+    		      <li><a href="restaurante.html">Restaurante</a></li>
+    		      <li><a href="galeria.html">Galeria</a></li>
+    		      <li><a href="contacto.html">Contacto</a></li>
+    		    </ul>
+    		  </div>
+    		</nav>
+    	</div>
+
+        <main>
+            
+                    <div class="container">
+                        
+
+                        <div class="carousel carousel-slider">
+                          <a class="carousel-item" href="#one!"><img src="img/28.jpg"></a>
+                          <a class="carousel-item" href="#two!"><img src="img/19.jpg"></a>
+                          <a class="carousel-item" href="#three!"><img src="img/17.jpg"></a>
+                          <a class="carousel-item" href="#four!"><img src="img/15.jpg"></a>
+                        </div>
+
+                        <div>
+                            <h3 class="center">Bienvenidos a The St. Regis Bora Bora Resort</h3>
+
+                            <div class="row">
+                                <div class="col s12 m6">
+                                    <p>
+                                        Déjese cautivar por el Marquis Reforma Hotel & Spa, un lujoso destino de cinco estrellas localizado en Paseo de la Reforma, una de las avenidas más elegantes de la Ciudad de México
+                                        Descubra por qué somos uno de los mejores 15 hoteles en México y por qué Conde Nast Travelers nos otorgó el único certificado "Leading Hotels of the World" en la Ciudad de México.    
+                                    </p>
+                                    <p>
+                                        Nuestras suites de inspiración art déco gozan de un ambiente de sofisticación muy agradable. Viva el lujo de las habitaciones, con sus acabados de caoba, sus baños de mármol y las vistas al Bosque de Chapultepec se vuelven perfectas para el alojamiento tanto para un ejecutivo como para un viajero de placer con buen gusto.
+                                    </p>
+                                </div>
+
+                                <div class="col s12 m6">
+                                    <img class="materialboxed" src="img/7.jpg" width="100%">
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                              
+
+                    </div>
+
+        </main>
+    	
+
+    </body>
+
+
+    <footer class="page-footer blue darken-3">
+      <div class="container center">
+        <div class="row" style="margin-top: 5%;">
+          <div class="col s6 m3 l3">
+            <a class="grey-text text-lighten-3" href="#!"><img class="img-footer" src="img/facebook.png"></a></li>
+          </div>
+          <div class="col s6 m3 l3">
+            <a class="grey-text text-lighten-3" href="#!"><img class="img-footer" src="img/twitter.png"></a></li>
+          </div>
+          <div class="col s6 m3 l3">
+            <a class="grey-text text-lighten-3" href="#!"><img class="img-footer" src="img/instagram.png"></a></li>
+          </div>
+          <div class="col s6 m3 l3">
+            <a class="grey-text text-lighten-3" href="#!"><img class="img-footer" src="img/youtube.png"></a></li>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <div class="container">
+        © 2018 Copyright All rights reserved
+        <a class="grey-text text-lighten-4 right" href="#!">Elaborado por: Hernández Fuentes Adán</a>
+        </div>
+      </div>
+    </footer>
+        
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+    	$(document).ready(function(){
+    	      $('.parallax').parallax();
+    	      $(".button-collapse").sideNav();
+              $('.carousel.carousel-slider').carousel({fullWidth: true});
+              $('.materialboxed').materialbox();
+    	});
+    </script>
+
+</html>

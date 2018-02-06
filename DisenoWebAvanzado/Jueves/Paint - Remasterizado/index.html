@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+	<canvas	width="600" height="400"></canvas>
+	<div class="controles">
+		<ul>
+			<li class="rojo seleccionado"></li>
+			<li class="azul"></li>
+			<li class="amarillo"></li>
+		</ul>
+		<button id="revelarColor">Nuevo Color</button>
+		<div id="colorSeleccionado">
+			<span id="nuevoColor"></span>
+			<div class="sliders">
+				<p>
+					<label for="red">Rojo</label>
+					<input id="red" name="red" type="range" min=0 max=255 value=0>
+				</p>
+				<p>
+					<label for="green">Verde</label>
+					<input id="green" name="green" type="range" min=0 max=255 value=0>
+				</p>
+				<p>
+					<label for="blue">Azul</label>
+					<input id="blue" name="blue" type="range" min=0 max=255 value=0>
+				</p>
+			</div>
+			<div>
+			<button id="addNewColor">Agregar Color</button>
+			</div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>	
+</body>
+</html>

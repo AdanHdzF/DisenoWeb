@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ClaseMaps</title>
+  <link href="img/logo.png" rel='shortcut icon' type='image/png'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper green darken-1" >
+        <a href="index.html" class="brand-logo center"><img class="responsive-img" src="img/logo.png">GoogleMapsApi</a>
+      </div>
+    </nav>
+  </header>
+  
+  <div id="mapa"></div>
+
+
+  <footer class="page-footer green darken-1" style="position:fixed;bottom:0;left:0;width:100%;">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 PROTECO
+        <a class="grey-text text-lighten-4 right" href="http://proteco.mx/cursos">proteco.mx</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="js/rectangulos.js"></script>
+
+<!--
+  <script type="text/javascript" src="js/circulos.js"></script>
+-->
+
+  <!--
+  <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
+  -->
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvk8rvlu7Tpuf9XAqIKLIrQZTdraGjH8s&callback=initMap">
+</script>
+  
+</html>
